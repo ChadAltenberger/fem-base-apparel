@@ -120,12 +120,13 @@ img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 1rem;
+	padding: 1.05rem;
 	border-radius: 30px;
 	position: absolute;
 	top: 0;
 	right: 0;
 	box-shadow: 0 20px 20px -2px hsla(0, 36%, 70%, 0.4);
+	border: none;
 }
 
 .btn:hover {
