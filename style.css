@@ -159,7 +159,9 @@ img {
 
 @media screen and (min-width: 600px) {
 	.container {
-		background: url(images/bg-pattern-desktop.svg) no-repeat center center/cover;
+		background: url(images/bg-pattern-desktop.svg) no-repeat,
+			linear-gradient(135deg, white, #fff5f5);
+		background-size: 60%;
 		display: flex;
 		flex-direction: row-reverse;
 	}
@@ -206,11 +208,11 @@ img {
 
 @media screen and (min-width: 1020px) {
 	.main-content {
-		padding: 2.5rem 6rem 2rem 6rem;
+		padding: 2.5rem 10rem 2rem 10rem;
 	}
 
 	.logo {
-		margin-bottom: 4rem;
+		margin-bottom: 5rem;
 	}
 
 	.logo img {
